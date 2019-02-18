@@ -5,7 +5,7 @@ const ChatDisplay = props => {
         <div className="display">
             <ul>
             {props.inputList.map(item => {
-                return <li key={item} style={{listStyle:"none"}}>{item}</li>
+                return <li key={item} style={{listStyle:"none"}}>{item.input}</li>
             })}
             </ul>
         </div>
